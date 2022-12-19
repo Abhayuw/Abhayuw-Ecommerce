@@ -23,11 +23,13 @@
     border: 2px solid black;
     height: 100%;
     text-align: center;
+    align-items: center;
     font-size: 16px;
     background-color: transparent;
     font-weight: bold;
     box-shadow: 3px 2px 0px 0px black;
   }
+
  .Home_btn{
   position: absolute;
   top: 1px;
@@ -37,8 +39,8 @@
   color: black;
  }
 
- @media (max-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
-
+ @media (max-width:490px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+  
  
   .About_btn{display: none;}
 }
