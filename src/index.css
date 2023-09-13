@@ -1,11 +1,14 @@
 #root{
-  background-color:#f9d5a6;
+  background-color:#1c3a13;
   margin: 0;
-  max-width: 100%;
-  max-height: max-content;
-  
-}
+  background-image:url(https://res.cloudinary.com/dljz0lko8/image/upload/f_auto,q_auto/index/Seed_Homepage_Hero_BG.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  }
 body {
+  
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

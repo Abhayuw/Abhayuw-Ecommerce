@@ -31,7 +31,7 @@ function App() {
         </div>
         <div className='header'>
           
-              <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.</h2>
+              <h2>Lorem ipsum dolor sit amet.</h2>
           
         </div>
         <div className='side_bar_placeholder'></div>

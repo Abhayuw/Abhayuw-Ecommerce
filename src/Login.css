@@ -14,8 +14,12 @@ h5{
     box-shadow: 3px 2px 0px 0px black;
 }
 button{
-    background-color: purple;
+    border:2px solid black;
+    background-color: rgb(47, 56, 48);
     color: white;
     margin: 10px;
     box-shadow: 3px 2px 0px 0px black;
+}
+button:hover{
+    transform: scale(1.025);
 }

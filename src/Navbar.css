@@ -1,33 +1,37 @@
 .Navbar{
   height: 5vh;
-  width: 100vw;
+  width: 100%;
     position: -webkit-sticky; /* Safari */
     position: sticky;
-    top: 0;
+    top: 2%;
+    
     display: flex;
     justify-content:flex-end;
     align-items: center;
     background-color: transparent;
     z-index: 5;
+    
   }
   .Navbar>*:hover {
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    transform: scale(1.1);
-    transition: transform 0.3s ease-in-out;
-    
+    transform: scale(1.05);
+    transition: transform 0.1s ease-in-out;
+    text-decoration: dashed;
+    text-decoration-color:white ;
   }
   .Navbar>* {
     display: flex;
     padding: 0 4px;
     margin: 2px;
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
     height: 100%;
     text-align: center;
     align-items: center;
-    font-size: 16px;
+    font-size: 15px;
     background-color: transparent;
     font-weight: bold;
-    box-shadow: 3px 2px 0px 0px black;
+    box-shadow: 2px 2px 0px 0px #00000068;
+    
   }
 
  .Home_btn{
@@ -35,8 +39,12 @@
   top: 1px;
   left: 1px;
  }
- .Navbar a{
-  color: black;
+ .Navbar a {
+  text-decoration: none;
+  color:white;
+ }
+ .Navbar a:hover{
+  text-decoration-line:underline ;
  }
 
  @media (max-width:490px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
